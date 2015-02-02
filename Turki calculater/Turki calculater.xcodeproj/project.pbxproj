@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70861A321A7B3D8500448BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70861A311A7B3D8500448BFB /* main.m */; };
+		70861A351A7B3D8500448BFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70861A341A7B3D8500448BFB /* AppDelegate.m */; };
+		70861A381A7B3D8500448BFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70861A371A7B3D8500448BFB /* ViewController.m */; };
+		70861A3B1A7B3D8600448BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70861A391A7B3D8600448BFB /* Main.storyboard */; };
+		70861A3D1A7B3D8600448BFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70861A3C1A7B3D8600448BFB /* Images.xcassets */; };
+		70861A401A7B3D8600448BFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70861A3E1A7B3D8600448BFB /* LaunchScreen.xib */; };
+		70861A4C1A7B3D8600448BFB /* Turki_calculaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70861A4B1A7B3D8600448BFB /* Turki_calculaterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70861A461A7B3D8600448BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70861A241A7B3D8500448BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70861A2B1A7B3D8500448BFB;
+			remoteInfo = "Turki calculater";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70861A2C1A7B3D8500448BFB /* Turki calculater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turki calculater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70861A301A7B3D8500448BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70861A311A7B3D8500448BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70861A331A7B3D8500448BFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70861A341A7B3D8500448BFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70861A361A7B3D8500448BFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70861A371A7B3D8500448BFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70861A3A1A7B3D8600448BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70861A3C1A7B3D8600448BFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		70861A3F1A7B3D8600448BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		70861A451A7B3D8600448BFB /* Turki calculaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turki calculaterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70861A4A1A7B3D8600448BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70861A4B1A7B3D8600448BFB /* Turki_calculaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Turki_calculaterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70861A291A7B3D8500448BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70861A421A7B3D8600448BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70861A231A7B3D8500448BFB = {
+			isa = PBXGroup;
+			children = (
+				70861A2E1A7B3D8500448BFB /* Turki calculater */,
+				70861A481A7B3D8600448BFB /* Turki calculaterTests */,
+				70861A2D1A7B3D8500448BFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70861A2D1A7B3D8500448BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70861A2C1A7B3D8500448BFB /* Turki calculater.app */,
+				70861A451A7B3D8600448BFB /* Turki calculaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70861A2E1A7B3D8500448BFB /* Turki calculater */ = {
+			isa = PBXGroup;
+			children = (
+				70861A331A7B3D8500448BFB /* AppDelegate.h */,
+				70861A341A7B3D8500448BFB /* AppDelegate.m */,
+				70861A361A7B3D8500448BFB /* ViewController.h */,
+				70861A371A7B3D8500448BFB /* ViewController.m */,
+				70861A391A7B3D8600448BFB /* Main.storyboard */,
+				70861A3C1A7B3D8600448BFB /* Images.xcassets */,
+				70861A3E1A7B3D8600448BFB /* LaunchScreen.xib */,
+				70861A2F1A7B3D8500448BFB /* Supporting Files */,
+			);
+			path = "Turki calculater";
+			sourceTree = "<group>";
+		};
+		70861A2F1A7B3D8500448BFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70861A301A7B3D8500448BFB /* Info.plist */,
+				70861A311A7B3D8500448BFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70861A481A7B3D8600448BFB /* Turki calculaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				70861A4B1A7B3D8600448BFB /* Turki_calculaterTests.m */,
+				70861A491A7B3D8600448BFB /* Supporting Files */,
+			);
+			path = "Turki calculaterTests";
+			sourceTree = "<group>";
+		};
+		70861A491A7B3D8600448BFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70861A4A1A7B3D8600448BFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70861A2B1A7B3D8500448BFB /* Turki calculater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70861A4F1A7B3D8600448BFB /* Build configuration list for PBXNativeTarget "Turki calculater" */;
+			buildPhases = (
+				70861A281A7B3D8500448BFB /* Sources */,
+				70861A291A7B3D8500448BFB /* Frameworks */,
+				70861A2A1A7B3D8500448BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Turki calculater";
+			productName = "Turki calculater";
+			productReference = 70861A2C1A7B3D8500448BFB /* Turki calculater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70861A441A7B3D8600448BFB /* Turki calculaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70861A521A7B3D8600448BFB /* Build configuration list for PBXNativeTarget "Turki calculaterTests" */;
+			buildPhases = (
+				70861A411A7B3D8600448BFB /* Sources */,
+				70861A421A7B3D8600448BFB /* Frameworks */,
+				70861A431A7B3D8600448BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70861A471A7B3D8600448BFB /* PBXTargetDependency */,
+			);
+			name = "Turki calculaterTests";
+			productName = "Turki calculaterTests";
+			productReference = 70861A451A7B3D8600448BFB /* Turki calculaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70861A241A7B3D8500448BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "turki albalawi";
+				TargetAttributes = {
+					70861A2B1A7B3D8500448BFB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					70861A441A7B3D8600448BFB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 70861A2B1A7B3D8500448BFB;
+					};
+				};
+			};
+			buildConfigurationList = 70861A271A7B3D8500448BFB /* Build configuration list for PBXProject "Turki calculater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70861A231A7B3D8500448BFB;
+			productRefGroup = 70861A2D1A7B3D8500448BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70861A2B1A7B3D8500448BFB /* Turki calculater */,
+				70861A441A7B3D8600448BFB /* Turki calculaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70861A2A1A7B3D8500448BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70861A3B1A7B3D8600448BFB /* Main.storyboard in Resources */,
+				70861A401A7B3D8600448BFB /* LaunchScreen.xib in Resources */,
+				70861A3D1A7B3D8600448BFB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70861A431A7B3D8600448BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70861A281A7B3D8500448BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70861A381A7B3D8500448BFB /* ViewController.m in Sources */,
+				70861A351A7B3D8500448BFB /* AppDelegate.m in Sources */,
+				70861A321A7B3D8500448BFB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70861A411A7B3D8600448BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70861A4C1A7B3D8600448BFB /* Turki_calculaterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70861A471A7B3D8600448BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70861A2B1A7B3D8500448BFB /* Turki calculater */;
+			targetProxy = 70861A461A7B3D8600448BFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70861A391A7B3D8600448BFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70861A3A1A7B3D8600448BFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70861A3E1A7B3D8600448BFB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70861A3F1A7B3D8600448BFB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70861A4D1A7B3D8600448BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70861A4E1A7B3D8600448BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70861A501A7B3D8600448BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Turki calculater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70861A511A7B3D8600448BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Turki calculater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70861A531A7B3D8600448BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Turki calculaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turki calculater.app/Turki calculater";
+			};
+			name = Debug;
+		};
+		70861A541A7B3D8600448BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Turki calculaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turki calculater.app/Turki calculater";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70861A271A7B3D8500448BFB /* Build configuration list for PBXProject "Turki calculater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70861A4D1A7B3D8600448BFB /* Debug */,
+				70861A4E1A7B3D8600448BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70861A4F1A7B3D8600448BFB /* Build configuration list for PBXNativeTarget "Turki calculater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70861A501A7B3D8600448BFB /* Debug */,
+				70861A511A7B3D8600448BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70861A521A7B3D8600448BFB /* Build configuration list for PBXNativeTarget "Turki calculaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70861A531A7B3D8600448BFB /* Debug */,
+				70861A541A7B3D8600448BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70861A241A7B3D8500448BFB /* Project object */;
+}
